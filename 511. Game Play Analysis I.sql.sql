@@ -1,3 +1,4 @@
+/*
 """
 Table: Activity
 +--------------+---------+
@@ -34,7 +35,7 @@ Result table:
 | 3         | 2016-03-02  |
 +-----------+-------------+
 """
-# Write your MySQL query statement below
+*/
 SELECT
 	player_id
 ,	min(event_date) first_login
